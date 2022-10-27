@@ -1,0 +1,17 @@
+Nom du projet : Formulateur d'un questionnaire
+Description : 
+Ce programme crée une plate-forme sur laquelle un enseignant 
+pourrait former un questionnaire. Dans ce questionnaire, il faut établir 
+un domaine. Ceci peut s'agir des mathématiques, du français, la physique, 
+la chimie, etc. C'est à l'utilisateur d'établir un domaine de son choix. Il
+aura besoin d'établir des questions, des réponses et un système de pointage 
+pour chaque question.
+
+Il y a aussi une option pour qu'un élève répond au questionnaire.
+À la fin de la session de répondre au questionnaire, l'élève recevra son
+score final qui se base sur le réglage de ce que l'enseigant/l'utilisateur
+avait spécifié.
+
+
+Auteur : David Malek
+Date : le 26 janvier 2022

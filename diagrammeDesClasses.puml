@@ -1,0 +1,67 @@
+/' Copier-coller sur https://www.planttext.com/ ou activer l'extension PlantUML (jebbs) pour VS Code pour voir le diagramme'/
+
+@startuml diagrammeDesClasses
+
+/' https://plantuml.com/fr/theme
+    faves : _none_/mars/toy, plain/amiga/crt-green '/
+!theme mars
+
+
+/' https://plantuml.com/fr/class-diagram 
+    pour des détails pour le contenu et la présentation '/
+
+/' - pour private, + pour public, {static} pour static '/
+
+class Domaine {
+    - questions : ArrayList<String> 
+    - answers : ArrayList<String>
+    - score : ArrayList<Integer>
+    - qdone : ArrayList<Boolean>
+    - sujet : String
+    - totalscore : int
+    
+    <<constructeur>> Domaine( String ) 
+    + getNom() : String
+    + addQA( String , String, int ) : void
+    + getQuestions() : ArrayList<String>
+    + getQuestion( int ) : String 
+    + getAnswer( int ) : String
+    + getScore( int ): int
+    + totalScore() : int
+    + removeQA( String ) : void
+    + showData() : void
+}
+
+class Student {
+    - score : int
+    - name : String
+
+    <<constructeur>> Student( String ) 
+    + getNom() : String
+    + addToScore( int ) : void
+    + getScore() : int
+    + toString() : String
+
+}
+
+class Quiz {
+    -  clavier : Scanner [static]
+    -  actif : Domaine [static]
+    -  user : Student [static]
+
+    + main( String[] ) : void {static}
+    + addData() : void [static]
+    + removeData( String ) : void [static]
+    + giveQuiz(): void [static]
+}
+
+/' relations : 
+    *-- -> pour "fait partie de" (est un champ dans l'autre classe), 
+    <|-- -> pour "extends/implements",
+    <.. : utilise -> si on utilise simplement l'objet dans l'autre classe '/
+
+Quiz *.. Domaine : fait partie\nde
+Quiz *.. Student : fait partie\nde
+
+@enduml
+
