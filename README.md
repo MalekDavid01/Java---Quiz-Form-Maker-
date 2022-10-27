@@ -35,12 +35,3 @@ Spécifiquement, ce travail exige que vous appliquiez les concepts suivants :
 ## Échéance
 
 Le travail doit être complet et synchronisé sur GitHub pour **le mercredi 26 janvier à la fin du cours**.
-
-## Grille d'évaluation
-
-Compétence | Critère | Commentaire | Note 
---- | --- | --- | ---
-CC | Classes, Encapsulation, Types génériques, Interactivité, Diagrammes UML | très bien | 4++
-HP | Code modulaire (écrit dans des méthodes au lieu de le copier-coller à plusieurs endroits); commentaires explicatifs en français; choix des types pour les données et algorithmes logiques; diagramme UML cohérent avec la structure et les | Domaine.java:70 -> simplement passer l'argument au `get()` ... pas besoin d'un autre `int` temporaire; Quiz.java:176 -> si tu fais `index < ...` au lieu de `index <= ...` tu peux directement utiliser `actif.getQuestions.size()` sans faire un `- 1` ... c'est plus court et clair et il y a moins de chance de faire une erreur en écrivant la condition | 4+
-CO | Code bien structuré (tabulations et accolades); noms explicites; documentation complète | interface utilisateur facile à utiliser / prévisible selon les instructions fournies; documentation complète (bon choix pour les commentaires de ligne) | 4++
-MA | La tâche est complétée selon les consignes; le programme se lance / se compile sans erreurs (présence des fichiers .class) | il n'y a pas de fichier qui test les champs et méthodes des objets à part la classe Quiz | 4
