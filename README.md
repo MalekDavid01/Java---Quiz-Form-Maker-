@@ -1,4 +1,4 @@
-# Projet final ICS4U - 2021-2022
+# HIGH SCHOOL FINAL PROJECT JAVA
 
 ## Objectif
 
@@ -32,6 +32,3 @@ Spécifiquement, ce travail exige que vous appliquiez les concepts suivants :
 1. Avant de soumettre votre travail, *mettre à jour* le diagramme UML pour bien représenter la structure *finale* du programme.
 1. Avant de soumettre votre travail, compléter le fichier "about.txt" qui sert de documentation pour le programme.
 
-## Échéance
-
-Le travail doit être complet et synchronisé sur GitHub pour **le mercredi 26 janvier à la fin du cours**.
